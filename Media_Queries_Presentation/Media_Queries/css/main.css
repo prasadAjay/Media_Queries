@@ -1,0 +1,588 @@
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.wrapper {
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+
+h2 {
+    color: #0F8193;
+    font-weight: bold;
+    text-align: center;
+}
+
+.center {
+    width: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.image-round {
+    border-radius: 50%;
+    width: 100%;
+    height: 70%;
+}
+
+/* Header related CCS styles */
+.header {
+    position: relative;
+}
+
+.headerContainer {
+    border-top: 2px solid #808080;
+    border-bottom: 2px solid #808080;
+    border-left: 2px solid #808080;
+    border-right: 2px solid	#808080;
+    height: 80px;
+}
+
+.headingLeft {
+    float: left;
+    display: inline;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.headingRight {
+    float: right;
+    display: inline;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+.headerContent {
+    clear: both;
+    overflow: hidden;
+}
+
+/* Company related CCS styles */
+.companyName {
+    float: left;
+    display: inline;
+    margin-left: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #0F8193;
+}
+
+.companyContent {
+    float: right;
+    display: inline;
+    margin-top: 4px;
+    margin-right: 300px;
+}
+
+.companyContent > a {
+    padding: 10px;
+    color: #000000;
+}
+
+.btn {
+    text-decoration: none;
+    background-color:#0F8193;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    display: initial;
+    color: #FFFFFF;
+}
+
+.btn > a {
+    color:#FFFFFF;
+}
+
+/* Home related CSS styles */
+.homeContainer {
+    margin-top: 20px;
+    background: url(./../pictures/home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.homeBanner {
+    left: 15%;
+    position: absolute;
+    top: 30%;
+    width: 30%;
+}
+
+.homeBanner > p {
+    margin-left: 0;
+    margin-bottom: 20px;
+    font-size: small;
+}
+
+.homeBanner > .btn-home {
+    text-decoration: none;
+    background-color:#0F8193;
+    color: #FFFFFF;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    display: initial;
+}
+
+.btn-home > a {
+    color:#FFFFFF;
+}
+
+/* Why Choose Us related CSS styles */
+.whyContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item {
+    padding: 5px;
+    width: 20%;
+    text-align: center;
+}
+
+.item > p {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: small;
+}
+
+.item > .pHeading {
+    font-size: large;
+    font-weight: bold;
+    color: #0F8193;
+}
+
+/* Services related CSS styles */
+.services {
+    background-color: #f3f1f1;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+}
+
+.servicesContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item-service {
+    padding: 5px;
+    width: 23%;
+}
+
+.item-service > p {
+    margin: 0;
+    text-align: left;
+    font-size: small;
+}
+
+.image-services {
+    width: 250px;
+    height: 200px;
+}
+
+.item-service > h3 {
+    color: #0F8193;
+}
+
+.btn-services {
+    background-color: #0F8193;
+    display: flex;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+/*Footer related CSS styles */
+.footerContainer {
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footerSection {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    padding: 10px;
+}
+
+.footerSectionSub1 {
+    margin-top: 4.5%;
+    width: 15%;
+    padding: 10px;
+}
+
+.footerSectionSub2 {
+    margin-top: 4.5%;
+    width: 20%;
+    padding: 10px;
+}
+
+.footerSectionSub3 {
+    margin-top: 4.5%;
+    width: 20%;
+    padding: 10px;
+}
+
+.footerSection > h1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0F8193;
+}
+
+.footerSection > p {
+    text-align: left;
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: small;
+}
+
+.footerSectionSub1 > ul {
+    text-align: left;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    font-size: small;
+}
+
+.footerSectionSub2 > ul {
+    text-align: left;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    font-size: small;
+}
+
+.footerSectionSub3 > p {
+    text-align: left;
+    margin: 0;
+    font-size: small;
+}
+
+/* Media Queries for iPAD */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+    /* CSS for Header - iPad */
+    .headerContainer {
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        height: 70px;
+        display: block;
+    }
+    .headingLeft {
+        float: none;
+        display: block;
+        margin-top: 3%;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .headingRight {
+        float: none;
+        display: block;
+        margin: 0;
+    }
+
+    /* CSS for Home - iPad */
+    .home {
+        margin-bottom: 0;
+    }
+    .homeContainer {
+        background-image: none;
+        width: 80%;
+        margin-top: 0;
+        margin-right: auto;
+        margin-left: auto;
+        height: auto;
+    }
+
+    .homeBanner {
+        background-color: #f3f1f1;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-top: 20%;
+    }
+
+    /* CSS for Nav bar - iPad */
+    .headerContent {
+        clear: both;
+        overflow: hidden;
+    }
+    .companyName {
+        float: none;
+        display: block;
+        margin: 0;
+        font-size: 20px;
+        font-weight: bold;
+        color: #0F8193;
+        text-align: center;
+    }
+    .companyContent {
+        float: none;
+        display: grid;
+        margin-top: 2%;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+    /* CSS for Why Choose Us - iPad */
+    .whyChooseUs {
+        margin-top: 45%;
+    }
+    .whyContainer {
+        display: block;
+        margin-top: 10px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .item {
+        padding: 3px;
+        width: 98%;
+        text-align: center;
+    }
+
+    /* CSS for Services - iPad */
+    .services {
+        background-color: #f3f1f1;
+        padding: 0;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .servicesContainer {
+        display: block;
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .item-service {
+        padding: 0;
+        width: 100%;
+    }
+    .image-services {
+        width: 240px;
+        height: 170px;
+    }
+    h3 {
+        color: #0F8193;
+        font-size: 14px;
+        text-align: center;
+    }
+    .btn-services {
+        background-color: #0F8193;
+        display: flex;
+        padding: 15px;
+        border-radius: 20px;
+        border: none;
+        color: #FFFFFF;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* CSS for Footer - iPad */
+    .footer {
+        overflow: hidden;
+    }
+    .footerContainer {
+        display: block;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .footerSection {
+        width: 100%;
+    }
+    .footerGrid {
+        display: none;
+    }
+    .footerSectionSub1 .footerSectionSub2 .footerSectionSub3 {
+        margin-top: 0;
+        width: 100%;
+        padding: 3px;
+    }
+}
+
+/* Media Queries for iPhone 6/7/8 Plus*/
+@media all and (device-width: 414px) and (device-height: 736px) and (orientation:portrait) {
+    /* CSS for Header - iPhone */
+    .headerContainer {
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        height: 70px;
+        display: block;
+    }
+    .headingLeft {
+        float: none;
+        display: block;
+        margin-top: 3%;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .headingRight {
+        float: none;
+        display: block;
+        margin: 0;
+    }
+
+    /* CSS for Home - iPhone */
+    .homeContainer {
+        background-image: none;
+        width: 80%;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+    }
+
+    .homeBanner {
+        background-color: #f3f1f1;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50%;
+        text-align: center;
+    }
+
+    /* CSS for Nav bar - iPhone */
+    .headerContent {
+        clear: both;
+        overflow: hidden;
+    }
+    .companyName {
+        float: none;
+        display: block;
+        margin: 0;
+        font-size: 20px;
+        font-weight: bold;
+        color: #0F8193;
+        text-align: center;
+    }
+    .companyContent {
+        float: none;
+        display: grid;
+        margin-top: 2%;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    /* CSS for Why Choose Us - iPhone */
+    .whyChooseUs {
+        margin-top: 110%
+    }
+    .whyContainer {
+        display: block;
+        margin-top: 10px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .item {
+        padding: 3px;
+        width: 98%;
+        text-align: center;
+    }
+
+    /* CSS for Services - iPhone */
+    .services {
+        background-color: #f3f1f1;
+        padding: 0;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .servicesContainer {
+        display: block;
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .item-service {
+        padding: 0;
+        width: 100%;
+    }
+    .image-services {
+        width: 140px;
+        height: 160px;
+    }
+    h3 {
+        color: #0F8193;
+        font-size: 14px;
+    }
+    .btn-services {
+        background-color: #0F8193;
+        display: flex;
+        padding: 15px;
+        border-radius: 20px;
+        border: none;
+        color: #FFFFFF;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* CSS for Footer - iPhone */
+    .footerContainer {
+        display: block;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .footerSection {
+        width: 100%;
+    }
+    .footerGrid {
+        display: none;
+    }
+    .footerSectionSub1 .footerSectionSub2 .footerSectionSub3 {
+        margin-top: 0;
+        width: 100%;
+        padding: 3px;
+    }
+}
